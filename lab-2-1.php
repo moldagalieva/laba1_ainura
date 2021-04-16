@@ -32,3 +32,11 @@ else if (isset($_REQUEST['znak4']))
 	</nav>
 </head>
 </html>	
+<form>
+<input type="text" size="40" value="
+<?php echo $text; ?>" disabled>
+<input type="submit" name="znak1" value="$a=0; $b=0;" />
+<input type="submit" name="znak2" value="$a=10; $b=''true'';" /><br>
+<input type="submit" name="znak3" value="$a=false; $b=''false'';" />
+<input type="submit" name="znak4" value="$a=-1; $b='' '';" />
+</form>
