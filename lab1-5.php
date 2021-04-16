@@ -10,5 +10,9 @@
  print ('(' . $numberC . ') - (' . $numberA . ') + 1' . '<br>');
 ?>
 <html>
-
+<head>
+	<nav>
+	<p><a href="index.php">Главное меню</a></p> 
+	</nav>
+</head>
 </html>	
